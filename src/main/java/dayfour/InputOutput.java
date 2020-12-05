@@ -35,7 +35,7 @@ public class InputOutput {
   }
 
   public static List<String> readInputEx1() {
-    InputStream inputStream = InputOutput.class.getResourceAsStream("/dayfour/ex1");
+    InputStream inputStream = InputOutput.class.getResourceAsStream("/dayfour/data");
     BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
     String lines = StringUtils.EMPTY;
     String line;

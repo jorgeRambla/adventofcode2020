@@ -15,7 +15,7 @@ public enum Type {
 }
 
   public static List<List<Type>> readInputEx1() {
-    InputStream inputStream = InputOutput.class.getResourceAsStream("/daythree/ex1");
+    InputStream inputStream = InputOutput.class.getResourceAsStream("/daythree/data");
     return new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8))
             .lines()
             .map(InputOutput::transform)

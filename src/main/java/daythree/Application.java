@@ -3,7 +3,7 @@ package daythree;
 public class Application {
   public static void main(final String... args) {
     long result = Logic.calculateEx1(InputOutput.readInputEx1(), 3, 1);
-    System.out.println(String.format("You hit %s trees in ex1", result));
+    System.out.println(String.format("You hit %s trees in data", result));
 
     long ex2result = 0;
     long oneOne = Logic.calculateEx1(InputOutput.readInputEx1(),1,1);

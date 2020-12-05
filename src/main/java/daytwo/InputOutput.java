@@ -17,7 +17,7 @@ public class InputOutput {
   private static final String REGEX = "(?<min>\\d*)-(?<max>\\d*)\\s(?<letter>.{1}):\\s(?<password>.*)";
 
   public static List<Data> readInputEx1() {
-    InputStream inputStream = InputOutput.class.getResourceAsStream("/daytwo/ex1");
+    InputStream inputStream = InputOutput.class.getResourceAsStream("/daytwo/data");
     return new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8))
             .lines()
             .map(InputOutput::transform)
