@@ -22,14 +22,5 @@ public class Application {
     } else {
       System.err.println("I miss in my life of service :(");
     }
-
-
-    /*Optional<List<Long>> resultEx2 = Logic.calculateEx2(InputOutput.readInputEx1());
-    if(resultEx2.isPresent()) {
-      Long finalResult = resultEx2.get().get(0) * resultEx2.get().get(1) * resultEx2.get().get(2);
-      System.out.println(String.format("The matched values are: %s, and the result is: %s", resultEx2.get(), finalResult));
-    } else {
-      System.out.println("The provided data does not contains a valid solution for Ex2");
-    }*/
   }
 }
